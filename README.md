@@ -15,7 +15,7 @@ npm install
 Then, in order to log your bot into Discord, set [your bot token](https://discordapp.com/developers/applications/me):
 ```sh
 export DISCORD_TOKEN=<your discord app token>
-# you could, instead, fill it in the ./settings.json file
+# you could, instead, fill it in the ./tokens.json file
 ```
 
 And finally, start your bot with:
