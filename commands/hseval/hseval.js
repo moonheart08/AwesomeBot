@@ -2,7 +2,7 @@ const spawn = require('child_process').spawn;
 
 function hseval(code, cb) {
   let out = '';
-  const mueval = spawn('mueval', ['--inferred-type','-e', code]);
+  const mueval = spawn('mueval', ['--inferred-type', '-e', code]);
   mueval.stdout.on('data', (d) => {
     out += d.toString();
   });
