@@ -20,7 +20,7 @@
       "partly-cloudy-night": ":partly_sunny:",
       "fog": ":fog:",
       "cloudy":":cloud:",
-      "wind": "wind_blowing_face"
+      "wind": ":wind_blowing_face:"
     }
   },
   "commands": [
@@ -33,7 +33,8 @@
     "xkcd",
     "weather",
     "server",
-    "hseval"
+    "hseval",
+    "pbf"
   ],
   "openshift": {
     "heartbeat_channel": "keepalive",
