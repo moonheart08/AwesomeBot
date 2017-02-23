@@ -16,7 +16,7 @@ function hseval(code, cb) {
 module.exports = {
   usage: 'hseval <haskell expression> - runs <haskell expression> using mueval as the sandbox',
   run: (bot, message, args) => {
-    if (!args.length) return true;
+    if (!args) return true;
     hseval(args, (res) => {
       message.channel.sendMessage(`\`\`\`${res}\`\`\``);
     });
